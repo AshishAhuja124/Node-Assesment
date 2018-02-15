@@ -10,4 +10,10 @@ install these dependencies
     "mongoose": "^4.13.11"
   },
   
-  then to run db code : node server.js
+then to run db code : node server.js
+
+surver is running on 3000 port.Check out in browser localhost:3000
+
+Also to run testcses: npm run testcases
+
+Path coverage: npm run test:coverage
