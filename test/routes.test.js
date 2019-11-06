@@ -24,7 +24,7 @@ describe('/', function () {
             res.should.have.status(200);
             res.should.be.json;
             res.body.should.be.a('array');
-            res.body[1].name.to.be.equal('The Fault in our stars');
+            res.body[1].name.to.be.equal('The Fault in our star');
             
             done();
         })
