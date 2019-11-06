@@ -1,5 +1,5 @@
 var mongoose=require('mongoose');
-var movieSchema=new mongoose.Schema({            create a schema for the movie
+var movieSchema=new mongoose.Schema({           // create a schema for the movie
     code:String,
     moviename:String,
     release_date:String,
