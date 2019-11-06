@@ -37,7 +37,7 @@ router.post('/', function(req, res){                     //post functionality
      Movie.updateMovie(req.params._id,update,function(err,movie){
          if(err) throw err;
          res.json(movie);
-         console.log('movie updated');
+         console.log('movie is updated');
      });
  })
 
@@ -45,7 +45,7 @@ router.post('/', function(req, res){                     //post functionality
      Movie.deleteMovie(req.params._id,function(err,movie){
          if(err) throw err;
          res.json(movie);
-         console.log('movie deleted');
+         console.log('movie is deleted');
      });
 
  })
