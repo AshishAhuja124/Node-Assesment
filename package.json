@@ -15,7 +15,7 @@
     "cors": "^2.8.4",
     "express": "^4.15.2",
     "fs": "0.0.1-security",
-    "mongoose": "^4.13.11"
+    "mongoose": "^5.7.8"
   },
   "devDependencies": {
     "@angular/cli": "^1.6.8",
