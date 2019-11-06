@@ -1,10 +1,10 @@
 var express = require('express');
-//require('dotenv').config({path:'/ac/.env'});
+//require('dotenv').config({path:'/ac/.env'});  for security purpose
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var cors = require('cors');
 var fs=require('fs')
-mongoose.connect('mongodb://localhost:27017/movies',function(err,data){   //mongoose connection
+mongoose.connect('mongodb://localhost:27017/movies',function(err,data){   //mongoose connectio
 if (err){ 
     console.log('error')
 }
